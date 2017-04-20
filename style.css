@@ -68,6 +68,7 @@ header {
 }
 ul.hr {
     padding: 10px 0 0;
+    margin-top: 9px;
 }
 ul.hr li {
     font-size: 16px;
@@ -82,6 +83,7 @@ ul.hr li {
     color: #999999;
     padding: 10px 20px;
     margin-left: 90px;
+    margin-top: -8px;
     background-color: black;
     border-radius: 5px;
     border: 1px solid #999999;
