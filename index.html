@@ -26,14 +26,14 @@
         </div>
         <div class="container clearfix hidden-sm hidden-xs">
             <div class="row">
-                 <div class="col-md-2">
+                 <div class="col-md-1">
                     <div class="logo">
                         <img src="images/logo.png" alt="">
                     </div>
                 </div>
-                <div class="col-md-10">
+                <div class="col-md-11">
                     <ul class="hr">
-                        <li>Free credit balance <b><span style="color: white">$10</span></b></li>
+                        <li class="hr_border">Free credit balance <b><span style="color: white">$10</span></b></li>
                         <li><a href="#">Profile</a></li>
                         <li><a href="#">Invite friends</a></li>
                         <li><a href="#">Enter promo code</a></li>
@@ -44,33 +44,38 @@
             </div>
         </div>
     </header>
-    <section class="hidden-sm hidden-xs">
-        <div class="container">
+    <section>
+        <div class="container clearfix">
             <div class="row">
-                <div class="col-md-2">
-                    <div class="chart">
-                        94119, SF
+                <div class="col-md-8">
+                    <div class="svc">
+                        <div class="chart">
+                            94119, SF
+                        </div>
+                        <div class="time">
+                            ETA: = 17 min from order
+                        </div>
+                        <div class="cart">
+                            <span style="color: #4cccdb">1 item</span> for $50
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="time">
-                        ETA: = 17 min from order
-                    </div>
+                    <button class="bttn_verification btn-block">Get verified before checkout</button>
                 </div>
-                <div class="col-md-2">
-                    <div class="cart">
-                        <span style="color: #4cccdb">1 item</span> for $50
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="bttn_verification_div">
-                        <button class="bttn_verification hidden-md">Get verified before checkout -></button>
-                    </div>
+             </div>   
+        </div>
+    </section>
+    <div class="container visible-xs visible-sm">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="vis_verify">
+                    Invite friends and get free credits!
                 </div>
             </div>
         </div>
-    </section>
-    <div class="container">
+    </div>
+    <div class="container hidden-sm hidden-xs">
         <div class="row">
             <div class="col-md-12">
                 <div class="verify">
@@ -99,6 +104,7 @@
                                 <p>Effects: Euphoric, Stress-Free</p>
                             </div>
                             <div class="buy">
+                                <div class="buy_item">
                                 <ul>
                                     <li>
                                         $50
@@ -113,6 +119,7 @@
                                         <a href="#"><img src="images/plus.png" alt="alt"></a>
                                     </li>
                                 </ul>
+                                </div>
                             </div>
                             <div>
                                 <button class="bttn"><b>Add to cart</b></button>
@@ -125,23 +132,27 @@
                         <img src="images/mango.png" alt="Травка" class="travka">
                         <div class="order_mango">
                             <div>
-                                <div>
-                                    <h1 class="topic">Mango Kush</h1>
-                                </div>
-                                <div>
-                                    <button class="sativa"><b>SATIVA</b></button>
-                                    <button class="THC"><b>THC: 16%, CBD: 18%</b></button>
-                                </div>
-                                <div class="text">
-                                    <p>Tastes and smells like mango with a hint of pine.</p>
-                                    <p>This frosty treat is sure to make you smile.</p>
-                                    <p>Effects: Happy, Relaxed.</p>
-                                </div>
+                                <h1 class="topic">Mango Kush</h1>
                             </div>
-                            <div class="button_div">
-                                <button class="button_mango button_mango_sum">1/8 oz for $50</button>
-                                <button class="button_mango button_mango_cart">Add to cart</button>
+                            <div>
+                                <button class="sativa"><b>SATIVA</b></button>
+                                <button class="THC"><b>THC: 16%, CBD: 18%</b></button>
                             </div>
+                            <div class="text">
+                                <p>Tastes and smells like mango with a hint of pine.</p>
+                                <p>This frosty treat is sure to make you smile.</p>
+                                <p>Effects: Happy, Relaxed.</p>
+                            </div>
+                                <div class="button_mango">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <button class="button_sum btn-block">1/8 oz for $50</button>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <button class="button_cart btn-block">Add to cart</button>
+                                        </div>
+                                    </div>
+                                </div>
                             <div class="bottom_div"></div>
                         </div>
                     </div>
@@ -164,12 +175,17 @@
                                     <p>Effects: Euphoric, Stress-Free</p>
                                 </div>
                             </div>
-                            <div class="button_div">
-                                <button class="button_mango button_mango_sum">1/8 oz for $50</button>
-                                <button class="button_mango button_mango_cart">Add to cart</button>
-                            </div>
-                            <div class="bottom_div">
-                            </div>
+                            <div class="button_mango">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <button class="button_sum btn-block">1/8 oz for $50</button>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <button class="button_cart btn-block">Add to cart</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            <div class="bottom_div"></div>
                         </div>
                     </div>
                 </div>
@@ -178,25 +194,28 @@
                         <img src="images/blackbarry.png" alt="Травка" class="travka">
                         <div class="order_blackbarry">
                             <div>
-                                <div>
-                                    <h1 class="topic">Blackbarry Kush</h1>
-                                </div>
-                                <div>
-                                    <button class="indica"><b>INDICA</b></button>
-                                    <button class="THC"><b>THC: 16%, CBD: 18%</b></button>
-                                </div>
-                                <div class="text">
-                                    <p>Afghani/Blackbarry mix loaded with crystals, s.</p>
-                                    <p>meels of fuel and berries, and is highin CBD.</p>
-                                    <p>Effects: Pain-free, Relaxed.</p>
+                                <h1 class="topic">Blackbarry Kush</h1>
+                            </div>
+                            <div>
+                                <button class="indica"><b>INDICA</b></button>
+                                <button class="THC"><b>THC: 16%, CBD: 18%</b></button>
+                            </div>
+                            <div class="text">
+                                <p>Afghani/Blackbarry mix loaded with crystals, s.</p>
+                                <p>meels of fuel and berries, and is highin CBD.</p>
+                                <p>Effects: Pain-free, Relaxed.</p>
+                            </div>
+                            <div class="button_mango">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <button class="button_sum btn-block">1/8 oz for $50</button>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <button class="button_cart btn-block">Add to cart</button>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="button_div">
-                                <button class="button_mango button_mango_sum">1/8 oz for $50</button>
-                                <button class="button_mango button_mango_cart">Add to cart</button>
-                            </div>
-                            <div class="bottom_div">
-                            </div>
+                            <div class="bottom_div"></div>
                         </div>
                     </div>
                 </div>
