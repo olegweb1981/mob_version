@@ -38,17 +38,17 @@ body {
 }
 .v_mnu {
     float: left;
-    margin-top: 16px;
+    margin-top: 15px;
 }
 .v_cart {
     float: right;
-    margin-top: -65px;
+    margin-top: -16px;
 }
 .c_visibl {
     color: white;
     text-align: center;
-    font-size: 20px;
-    position: relative;
+    font-size: 18px;
+    padding: 0 10px;
 }
 
 header {
@@ -144,10 +144,10 @@ section {
 .vis_verify {
     font-family: MuseoSansRounded-500-webfont;
     text-align: left;
-    font-size: 20px;
+    font-size: 18px;
     color: #31b8c8;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
 }
 .verify {
@@ -175,6 +175,15 @@ section {
     margin: 10px 0px;
     position: relative;
 }
+@media (max-width: 700px) {
+    .berry, .mango, .champagne, .blackbarry {
+        margin: 0;
+        height: 380px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+}
 .order_berry, .order_mango, .order_champagne, .order_blackbarry {
     position: absolute;
     width: 100%;
@@ -187,22 +196,22 @@ section {
     background-color: #4cccdb;
     border-radius: 0px 0px 5px 5px;
     border: 1px solid #4cccdb;
-    padding: 15px;
+    padding: 10px;
 }
 
 .buy {
     width: 100%;
     background-color: #f3f3f3;
     display: inline-block;
-    margin-bottom: -5px;
-    padding: 10px 0;
+    margin-bottom: -11px;
+    padding: 5px 0;
 }
 .buy_item {
     display: table;
     margin: 0 auto;
 }
 .buy li {
-    font-size: 24px;
+    font-size: 22px;
     color: #4cccdb;
     float: left;
     padding-right: 25px;
@@ -221,24 +230,28 @@ section {
     padding: 0px 30px;
     color: #cccccc;
     font-family: MuseoSansRounded-500-webfont;
-    line-height: 10px;
+    line-height: 15px;
 }
+.b_btn {
+    padding: 10px 30px;
 
+}
 .sativa, .THC, .indica {
-    font-size: 16px;
+    font-size: 14px;
     display: inline-block;
     padding: 5px 15px;
-    margin: 10px 0px 10px 30px;
     background: none;
     text-align: center;
     text-decoration: none;
     border-radius: 20px;
+    margin-top: 5px;
 }
 
 .sativa {
     color: #ffde03;
     border: 3px solid #ffde03;
     cursor: pointer;
+    margin-right: 15px;
 }
 
 .indica {
@@ -250,13 +263,12 @@ section {
 .THC {
     color: #ffffff;
     border: 3px solid #ffffff;
-    margin: 10px 0px 10px 5px;
 }
 
 .topic {
     color: white;
-    padding: 5px 15px;
-    margin: 5px 5px 5px 15px;
+    padding: 0 30px;
+    margin: 0;
 }
 
 .bttn, .THC, .sativa {
@@ -270,7 +282,7 @@ section {
 }
 
 .button_mango {
-    padding: 10px 20px 25px;;
+    padding: 10px 20px;
 }
 
 .button_sum {
